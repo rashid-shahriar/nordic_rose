@@ -11,45 +11,67 @@ import imgTen from "../../assets/images/a-5-2.svg";
 import imgEleven from "../../assets/images/a-6-1.svg";
 import imgTwelve from "../../assets/images/a-6-2.svg";
 
-const articleData = [
+const ArticleData = [
   {
+    id: 1,
     img: imgOne,
     text: "Here are some things you should know regarding how we work",
-    img2: imgTwo,
-    text2:
-      "Granny gives everyone the finger, and other tips from OFFF Barcelona",
   },
   {
+    id: 2,
+    img: imgTwo,
+    text: "Granny gives everyone the finger, and other tips from OFF Barcelona",
+  },
+  {
+    id: 3,
     img: imgThree,
     text: "Hello world, or, in other words, why this blog exists",
-    img2: imgFour,
-    text2: "Here are some things you should know regarding how we work ",
   },
   {
+    id: 4,
+    img: imgFour,
+    text: "Here are some things you should know regarding how we work ",
+  },
+  {
+    id: 5,
     img: imgFive,
     text: "Connecting artificial intelligence with digital product design",
-    img2: imgSix,
-    text2: "It’s all about finding the perfect balance",
   },
   {
+    id: 6,
+    img: imgSix,
+    text: "It’s all about finding the perfect balance",
+  },
+  {
+    id: 7,
     img: imgSeven,
     text: "I believe learning is the most important skill",
-    img2: imgEight,
-    text2: "Clients are part of the team",
   },
   {
+    id: 8,
+    img: imgEight,
+    text: "Clients are part of the team",
+  },
+  {
+    id: 9,
     img: imgNine,
     text: "Clients are part of the team",
-    img2: imgTen,
-    text2: "Here are some things you should know regarding how we work ",
   },
   {
+    id: 10,
+    img: imgTen,
+    text: "Here are some things you should know regarding how we work ",
+  },
+  {
+    id: 11,
     img: imgEleven,
     text: "Connecting artificial intelligence with digital product design",
-    img2: imgTwelve,
-    text2:
-      "How modern remote working tools get along with Old School Cowboy's methods",
+  },
+  {
+    id: 12,
+    img: imgTwelve,
+    text: "How modern remote working tools get along with Old School Cowboy's methods",
   },
 ];
 
-export default articleData;
+export default ArticleData;
