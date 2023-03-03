@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
 
       <div className="pt-24">
-        <img src={Logo} alt="logo_image"></img>
+        <img src={Logo} alt="logo_image" />
       </div>
 
       <div className="text-white text-center pt-10 px-0 mx-0 lg:px-48 xl:px-72 xl:mx-48">

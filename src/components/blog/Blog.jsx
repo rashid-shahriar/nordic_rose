@@ -4,7 +4,7 @@ import blogImg from "../../assets/images/hero.svg";
 const Blog = () => {
   return (
     <section id="blog">
-      <img src={blogImg} className="mx-auto pt-14" alt="home_page_image"></img>
+      <img src={blogImg} className="mx-auto pt-14" alt="home_page_image" />
 
       <div className="text-center text-5xl md:text-6xl px-0 pt-8 lg:px-36 lg:mx-32 lg:pt-12 font-new_york_exl font-extrabold">
         A few words about this blog platform, Ghost, and how this site was made
